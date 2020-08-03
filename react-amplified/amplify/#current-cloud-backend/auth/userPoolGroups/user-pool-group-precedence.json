@@ -1,0 +1,25 @@
+[
+    {
+        "groupName": "admin",
+        "precedence": 1,
+        "customPolicies": [{
+            "PolicyName": "kinesis-video-admin",
+              "PolicyDocument": {
+              "Version":"2012-10-17",
+              "Statement":[
+                  {
+                    "Sid":"statement1",
+                    "Effect":"Allow",
+                    "Action":[
+                        "kinesisvideo:*",
+                        "ec2:*"
+                    ],
+                    "Resource":[
+                        "*"
+                    ]
+                  }
+               ]
+               }
+          }]
+    }
+]
