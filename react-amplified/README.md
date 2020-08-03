@@ -1,3 +1,11 @@
+# aws-kinesisvideo-webrtc-react
+
+This project attempts to create a React version of the official [AWS Amazon Kinesis Video Stream WebRTC] Javascript demo.
+
+## Status
+
+Work in process, not complete.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
