@@ -1,70 +1,38 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project ports the [awslabs/amazon-kinesis-video-streams-webrtc-sdk-js](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-js) to React. 
 
-## Available Scripts
+The only additional dependencies I pulled in are [Material UI](https://material-ui.com/) for basic visual formatting to make things look a little nicer, and [react-easy-state](https://github.com/RisingStack/react-easy-state) which makes it dead simple to handle / share state between components.
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+1. AWS account and IAM credentials (user or temporary role)
+2. [Create a Kinesis Video signaling channnel in advance](https://docs.aws.amazon.com/kinesisvideostreams-webrtc-dg/latest/devguide/gs-createchannel.html)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Deployment
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone this project: 
 
-### `npm test`
+  ```sh
+  git clone https://github.com/matwerber1/aws-kinesisvideo-webrtc-react
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. From the project root directory, install NodeJS dependencies:
 
-### `npm run build`
+  ```sh
+  npm install
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the app!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ```
+  npm run start
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. In the browser (https://localhost:3000), enter your IAM credentials and the name of your KVS WebRTC signaling channel.
 
-### `npm run eject`
+5. Start the player as a viewer or master.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+6. You can open a separate tab or browser session and repeat the prior steps, except switch the role of the player so you have both a master and viewer. Or, if you run master in the browser, you can log in to your AWS account and use the built-in viewer in the Kinesis Video WebRTC/Signaling Channel console.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Example](example.png)
