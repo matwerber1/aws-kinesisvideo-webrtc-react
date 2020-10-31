@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aws-kinesisvideo-webrtc-react/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/aws-kinesisvideo-webrtc-react/static/js/main.855d7106.chunk.js",
+    "main.js.map": "/aws-kinesisvideo-webrtc-react/static/js/main.855d7106.chunk.js.map",
+    "runtime-main.js": "/aws-kinesisvideo-webrtc-react/static/js/runtime-main.98430963.js",
+    "runtime-main.js.map": "/aws-kinesisvideo-webrtc-react/static/js/runtime-main.98430963.js.map",
+    "static/js/2.36911f17.chunk.js": "/aws-kinesisvideo-webrtc-react/static/js/2.36911f17.chunk.js",
+    "static/js/2.36911f17.chunk.js.map": "/aws-kinesisvideo-webrtc-react/static/js/2.36911f17.chunk.js.map",
+    "static/js/3.6c0f3200.chunk.js": "/aws-kinesisvideo-webrtc-react/static/js/3.6c0f3200.chunk.js",
+    "static/js/3.6c0f3200.chunk.js.map": "/aws-kinesisvideo-webrtc-react/static/js/3.6c0f3200.chunk.js.map",
+    "index.html": "/aws-kinesisvideo-webrtc-react/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/aws-kinesisvideo-webrtc-react/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.36911f17.chunk.js.LICENSE.txt": "/aws-kinesisvideo-webrtc-react/static/js/2.36911f17.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/aws-kinesisvideo-webrtc-react/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98430963.js",
+    "static/js/2.36911f17.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.855d7106.chunk.js"
+  ]
+}
