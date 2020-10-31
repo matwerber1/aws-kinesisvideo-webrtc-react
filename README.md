@@ -4,6 +4,10 @@ This project ports the [awslabs/amazon-kinesis-video-streams-webrtc-sdk-js](http
 
 The only additional dependencies I pulled in are [Material UI](https://material-ui.com/) for basic visual formatting to make things look a little nicer, and [react-easy-state](https://github.com/RisingStack/react-easy-state) which makes it dead simple to handle / share state between components.
 
+## Screenshot
+
+![Example](example.png)
+
 ## Prerequisites
 
 1. AWS account and IAM credentials (user or temporary role)
@@ -34,5 +38,3 @@ The only additional dependencies I pulled in are [Material UI](https://material-
 5. Start the player as a viewer or master.
 
 6. You can open a separate tab or browser session and repeat the prior steps, except switch the role of the player so you have both a master and viewer. Or, if you run master in the browser, you can log in to your AWS account and use the built-in viewer in the Kinesis Video WebRTC/Signaling Channel console.
-
-![Example](example.png)
