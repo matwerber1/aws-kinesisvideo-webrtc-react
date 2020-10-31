@@ -4,7 +4,11 @@ This project ports the [awslabs/amazon-kinesis-video-streams-webrtc-sdk-js](http
 
 The only additional dependencies I pulled in are [Material UI](https://material-ui.com/) for basic visual formatting to make things look a little nicer, and [react-easy-state](https://github.com/RisingStack/react-easy-state) which makes it dead simple to handle / share state between components.
 
-## Screenshot
+## Demo
+
+You can try this out in the browser at the link below:
+
+https://matwerber1.github.io/aws-kinesisvideo-webrtc-react/
 
 ![Example](example.png)
 
