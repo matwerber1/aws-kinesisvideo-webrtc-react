@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# AWS Kinesis Video WebRTC Demo in React
 
 This project ports the [awslabs/amazon-kinesis-video-streams-webrtc-sdk-js](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-js) to React. 
 
